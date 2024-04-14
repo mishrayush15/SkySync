@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkySync</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/icontabsun.png">
+
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images/search.png" alt="search"></button>
+        </div>
+        <div class="error">
+            <p>invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+            <h1 class="temp">Temp°C</h1>
+            <h2 class="city">Fetching...</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind"> km/h </p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
